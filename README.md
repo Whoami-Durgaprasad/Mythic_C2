@@ -7,13 +7,21 @@ sudo apt update && sudo apt install -y \
     python3 \
     python3-pip
 sudo systemctl start docker
+
 sudo systemctl enable docker
+
 sudo usermod -aG docker $USER
+
 newgrp docker  # or log out and log back in
+
 git clone https://github.com/its-a-feature/Mythic.git
+
 cd Mythic
+
 make
+
 ./mythic-cli install
+
 ./mythic-cli start
 
 # To know username and password try below command 
