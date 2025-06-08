@@ -1,4 +1,4 @@
-# Mythic_C2
+# Mythic_C2 Installation Process 
 
 sudo apt update && sudo apt install -y \
     docker.io \
@@ -18,7 +18,10 @@ make
 
 # To know username and password try below command 
 cat .env
+
 # Look for below lines
+\
 MYTHIC_ADMIN_PASSWORD="v6oqC9PmNBbjwwnh13gr4DeEHa5CFW"
+
 MYTHIC_ADMIN_USER="mythic_admin"
 
